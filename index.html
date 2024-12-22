@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature conversion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="mainbox">
+        <h1>Temperature Conversion:</h1>
+        <div class="box">
+        <input type="number" name="" id="text" value="0">
+            <div class="radio">
+                <div class="r1">
+
+                    <input type="radio" name="Temperature" id="cTof">
+                    <label for="cTof">Celsius<i class="fa-solid fa-arrow-right-long"></i> fahrenheit</label>
+                </div>
+                <div class="r2">
+
+                    <input type="radio" name="Temperature" id="fToc">
+                    <label for="fToc">Fahrenheit<i class="fa-solid fa-arrow-right-long"></i>Celcius</label>
+                </div>
+            </div>
+            <button onclick="conversion()">Submit</button>
+        </div>
+        <p></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
